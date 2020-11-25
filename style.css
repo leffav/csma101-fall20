@@ -10,7 +10,8 @@ html {
 
 body {
   margin: 0;                             /* clear any pre-set margin */
-  font-family: 'Open Sans', sans-serif;  /* use the webfont we loaded earlier */
+  font-family: 'Open Sans', sans-serif; 
+  background-color: black; /* use the webfont we loaded earlier */
 }
 
 a {
