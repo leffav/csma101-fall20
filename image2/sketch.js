@@ -9,7 +9,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+ let canvas = createCanvas(800, 800);
+  canvas.parent("container");
   image(img1, 0, 0);
 }
 

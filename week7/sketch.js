@@ -5,7 +5,8 @@ var sel = "Amanda";  // currently selected prototype
 var prototypes = ["Amanda", "Bus", "Christoph", "Jeffrey", "Mitchell", "Pooja", "Light", "Person", "TieFighter", "Tree"];  // types of buildings
 
 function setup() {
-  createCanvas(600, 400);
+ let canvas = createCanvas(600, 400);
+  canvas.parent("container");
 }
 
 function mouseClicked() {

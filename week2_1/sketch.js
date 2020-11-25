@@ -3,7 +3,8 @@ var centerY;
 var speed;
 
 function setup() {
-  createCanvas(400, 400);
+ let canvas = createCanvas(400, 400);
+  canvas.parent("container");
   centerX=200;
   centerY=200;
   speed=2

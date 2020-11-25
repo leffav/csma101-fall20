@@ -4,7 +4,8 @@ var size = 50;
 function setup() {
   let cnv = createCanvas(100, 100);
   cnv.mousePressed(playSynth);
-  createCanvas(500, 500);
+ let canvas = createCanvas(500, 500);
+  canvas.parent("container");
   background(223, 242, 247);
   monoSynth = new p5.MonoSynth();
 }

@@ -10,7 +10,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 600);
+  let canvas = createCanvas(800, 600);
+  canvas.parent("container");
   background(0);
   print(table.getRowCount());
 }

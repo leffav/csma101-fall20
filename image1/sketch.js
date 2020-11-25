@@ -13,7 +13,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas(800, 800);
+  let canvas = createCanvas(800, 800);
+  canvas.parent("container");
   frameRate (8);
    background(0);
   startGrid = 0;

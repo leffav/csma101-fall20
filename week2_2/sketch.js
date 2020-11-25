@@ -7,7 +7,8 @@ var colorG = 0
 var colorB = 0
 
 function setup() {
-  createCanvas(400, 400);
+  clet canvas = createCanvas(400, 400);
+  canvas.parent("container");
   //background(140, 180, 255);
 }
 

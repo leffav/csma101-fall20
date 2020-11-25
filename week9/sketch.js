@@ -3,7 +3,8 @@ var doorLeftX = 200;
 var doorRightX = 200;
 
 function setup() {
-  createCanvas(500, 400);
+  let canvas = createCanvas(500, 400);
+  canvas.parent("container");
 }
 
 function draw() {
