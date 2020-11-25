@@ -23,6 +23,8 @@ a {
   font-size: 12px;
   padding-left: 65px;                    /* padding is how far the content of an element is inset */
   padding-top: 86px;
+   background-color: black;
+  color: black;
 }
 
 #navigation p {                          /* this rule is for p elements inside the #navigation */
@@ -30,7 +32,7 @@ a {
 }
 
 #navigation a {
-  background-color: yellow;              /* give the links inside the #navigation a yellow background */
+  background-color: cyan;              /* give the links inside the #navigation a yellow background */
   text-decoration: none;                 /* don't make them underlined by default */
 }
 
@@ -42,7 +44,9 @@ a {
   float: left;                           /* we use this to make the #navigation and context show next to each other */
   width: 70%;                            /* the navigation uses 70% of the space */
   height: 100vh;                         /* this makes us use the entire vertical height of the browser for this element */
-  padding: 16px;                         /* inset the content a bit */
+  padding: 16px;  
+   background-color: black;
+  color: white;                       /* inset the content a bit */
 }
 
 #content iframe {                        /* iframes are used to display the p5.js sketches */
